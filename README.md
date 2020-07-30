@@ -4,6 +4,10 @@ The two programs listed here contain Python code to create problems for a Moodle
 
 For now, they are meant only to deal with questions where randomness comes from choosing different values and where the answer is a number or series of numbers. For that reason the only questions types that are generated are the Algebra question type and the Cloze question type with numerical answers. In cases where the answer consists of one number or function, I recommend using the algebra question type and if the answer consists of various numbers (e.g. specifying the three coordinates of a vector), I recommend the Cloze question type. Both have some disadvantages, though.
 
+**Note:** This code is not a magic bullet to create problems from nothing. You still need to do some coding to tell the program how to generate its random variables, the resulting answer and what text to create. But it does provide the scaffolding of creating most of the xml file, so that you can focus on the content of the problems.
+
+**Note also:** You will need a Python interpreter installed on your machine. I used the syntax of Python 3 and the code works on my version, which is 3.6.
+
 ## How to use the files
 
 In both files, there are a few variables defined at the top that you can customize. They are
