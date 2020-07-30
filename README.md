@@ -41,3 +41,8 @@ On the top right of screen, click the gear (settings) button. In the dropdown, s
 If you want to suggest improvements, additions or further examples, send me an e-mail. My Stellenbosch username is djbasson. 
 
 Better yet, clone the repository, add them and send me a pull request!
+
+Here are some things I have already used, but haven't had time to include in this first commit:
+* Using SageMath, an open source symbolic algebra system, to do some of the dirty work. For example, if you want to add a question to ask students to compute a derivative of a function, you don't have to write the code to get the computer to compute the derivative - you can simply use what SageMath has built-in. Maybe one can get away with other packages like numpy or scipy, but I think SageMath is more powerful.
+* Also using SageMath, you can create random images (!) to include in quiz questions. From your randomized variables, you ask SageMath to create an image, which your program then saves as a .png image and then converts to a base64 string, which can be included as an image in the html of the question. If you are interested in this, it is probably easier to contact me for the code I already have (but which is in a bit of a mess), than to figure it out from scratch.
+
